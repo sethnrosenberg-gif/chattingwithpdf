@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Editorial paper palette */
+    --background: 38 30% 96%;          /* warm paper */
+    --foreground: 25 20% 12%;          /* ink */
+
+    --paper: 38 35% 94%;
+    --paper-deep: 35 25% 89%;
+    --ink: 25 25% 10%;
+    --ink-soft: 25 15% 30%;
+    --ink-muted: 25 10% 45%;
+    --rule: 30 15% 80%;
+
+    --card: 38 40% 98%;
+    --card-foreground: 25 20% 12%;
+
+    --popover: 38 40% 98%;
+    --popover-foreground: 25 20% 12%;
+
+    --primary: 12 60% 38%;             /* oxblood ink accent */
+    --primary-foreground: 38 35% 96%;
+    --primary-glow: 14 70% 48%;
+
+    --secondary: 35 25% 89%;
+    --secondary-foreground: 25 25% 15%;
+
+    --muted: 35 20% 90%;
+    --muted-foreground: 25 12% 40%;
+
+    --accent: 38 60% 80%;              /* highlighter */
+    --accent-foreground: 25 30% 15%;
+
+    --highlight: 48 95% 70%;
+    --highlight-strong: 38 95% 60%;
+
+    --destructive: 0 65% 45%;
+    --destructive-foreground: 38 35% 96%;
+
+    --border: 30 15% 82%;
+    --input: 30 15% 82%;
+    --ring: 12 60% 38%;
+
+    --radius: 0.25rem;
+
+    --sidebar-background: 35 25% 92%;
+    --sidebar-foreground: 25 20% 18%;
+    --sidebar-primary: 12 60% 38%;
+    --sidebar-primary-foreground: 38 35% 96%;
+    --sidebar-accent: 35 25% 87%;
+    --sidebar-accent-foreground: 25 25% 15%;
+    --sidebar-border: 30 15% 80%;
+    --sidebar-ring: 12 60% 38%;
+
+    --font-serif: 'Fraunces', ui-serif, Georgia, serif;
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+    --shadow-paper: 0 1px 0 hsl(30 15% 80%), 0 12px 30px -18px hsl(25 30% 20% / 0.25);
+    --shadow-card: 0 1px 2px hsl(25 30% 20% / 0.06), 0 8px 24px -16px hsl(25 30% 20% / 0.18);
+  }
+
+  .dark {
+    --background: 28 12% 8%;
+    --foreground: 38 30% 92%;
+    --paper: 28 12% 10%;
+    --paper-deep: 28 12% 14%;
+    --ink: 38 30% 92%;
+    --ink-soft: 38 20% 80%;
+    --ink-muted: 38 10% 60%;
+    --rule: 28 8% 22%;
+    --card: 28 12% 11%;
+    --card-foreground: 38 30% 92%;
+    --popover: 28 12% 11%;
+    --popover-foreground: 38 30% 92%;
+    --primary: 14 70% 60%;
+    --primary-foreground: 28 12% 8%;
+    --secondary: 28 10% 18%;
+    --secondary-foreground: 38 30% 92%;
+    --muted: 28 10% 16%;
+    --muted-foreground: 38 10% 60%;
+    --accent: 28 30% 30%;
+    --accent-foreground: 38 30% 92%;
+    --highlight: 48 80% 50%;
+    --highlight-strong: 38 90% 55%;
+    --border: 28 8% 22%;
+    --input: 28 8% 22%;
+    --ring: 14 70% 60%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { font-family: var(--font-sans); }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv11";
+    background-image:
+      radial-gradient(hsl(var(--ink) / 0.025) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  .font-serif { font-family: var(--font-serif); font-optical-sizing: auto; }
+  .font-mono { font-family: var(--font-mono); }
+
+  ::selection { background: hsl(var(--highlight) / 0.6); color: hsl(var(--ink)); }
+}
+
+@layer components {
+  .display {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+  }
+  .smallcaps {
+    font-family: var(--font-sans);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .rule { @apply border-t border-[hsl(var(--rule))]; }
+  .paper-card {
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--rule));
+    box-shadow: var(--shadow-card);
+  }
+  .citation-mark {
+    background: linear-gradient(180deg, transparent 55%, hsl(var(--highlight) / 0.7) 55%);
+    padding: 0 0.1em;
+  }
+  .citation-mark-strong {
+    background: linear-gradient(180deg, transparent 50%, hsl(var(--highlight-strong) / 0.85) 50%);
+    padding: 0 0.1em;
+    box-shadow: 0 0 0 1px hsl(var(--highlight-strong) / 0.4);
+  }
+}
+
+/* react-pdf needs these */
+.react-pdf__Page__textContent { user-select: text; }
+.react-pdf__Page__annotations { display: none; }
+.pdf-highlight {
+  position: absolute;
+  background: hsl(var(--highlight) / 0.55);
+  mix-blend-mode: multiply;
+  border-radius: 2px;
+  pointer-events: none;
+  animation: highlight-pulse 1.4s ease-out;
+}
+@keyframes highlight-pulse {
+  0% { background: hsl(var(--highlight-strong) / 0.9); transform: scale(1.02); }
+  100% { background: hsl(var(--highlight) / 0.55); transform: scale(1); }
+}
