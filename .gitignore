@@ -1,0 +1,26 @@
+# secrets
+.env
+
+# HTTP response cache and rate-limit state (regenerated each run)
+cache/
+
+# per-run scratch (request logs, judgment batches); summaries land in out/
+data/runs/
+data/judgments/pending/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# SQLite is a local working store; the committed history lives in out/ and data/*.jsonl|csv
+data/jobs.sqlite
+data/jobs.sqlite-*

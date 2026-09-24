@@ -1,0 +1,72 @@
+company,segment,careers_url,ats_hint,ats_slug_or_tenant,confidence,notes
+Burford Capital,litigation_finance,https://careers.burfordcapital.com/,custom (jobs2web-style),,verified_url,VP Commercial + VP Patent live Sept 2026; Associate tier exists
+Parabellum Capital,litigation_finance,https://www.parabellumcap.com/,detect,,guess,16-person team; rare openings
+Fortress Investment Group (Legal Assets),litigation_finance,https://www.fortress.com/,detect,,guess,Legal-assets team hires ex-litigators
+Omni Bridgeway,litigation_finance,https://omnibridgeway.com/,detect,,guess,
+Longford Capital,litigation_finance,https://www.longfordcapital.com/,detect,,guess,
+Legalist,litigation_finance,https://www.legalist.com/,detect,,guess,
+Bench Walk Advisors,litigation_finance,,detect,,guess,
+Certum Group,litigation_finance,https://www.certumgroup.com/,detect,,guess,Absorbed Validity; William Marra
+Parabellum / LCM / Therium / Harbour,litigation_finance,,detect,,guess,Check each separately
+GLS Capital,litigation_finance,https://www.glscap.com/,detect,,guess,
+Octus,credit_intelligence,https://octus.com/company/careers/,greenhouse,octus,verified,Legal Analyst family recurs; Covenants Lawyer live
+9fin,credit_intelligence,https://jobs.ashbyhq.com/9fin,ashby,9fin,verified,Bankruptcy/LME legal analyst families recur
+Debtwire (ION Analytics),credit_intelligence,https://iongroup.com/careers/,detect (ION custom),,verified_url,Legal analyst removed Oct 2025
+Fitch Group (LevFin Insights / CreditSights),credit_intelligence,https://careers.fitch.group/,custom (jobs2web-style),,verified_url,Covenant director live Sept 2026
+PitchBook (LCD),credit_intelligence,https://pitchbook.com/careers,detect,,guess,
+Bloomberg (Intelligence / Law),credit_intelligence,https://bloomberg.avature.net/careers,avature,bloomberg,verified_url,BI litigation analysts; Bloomberg Law legal analysts
+S&P Global / Moody's,credit_intelligence,,workday (likely),,guess,Legal/covenant research seats
+Capstone DC,policy_research,https://job-boards.greenhouse.io/capstonedc,greenhouse,capstonedc,verified,FS investment & policy VP live
+Beacon Policy Advisors,policy_research,https://beaconpa.com/,detect,,guess,
+Height Capital Markets,policy_research,,detect,,guess,
+Strategas,policy_research,,detect,,guess,
+Evercore ISI (policy),policy_research,,detect,,guess,
+Eurasia Group,policy_research,https://www.eurasiagroup.net/,detect,,guess,
+The Capitol Forum,policy_research,https://thecapitolforum.com/careers/,detect,,verified_url,Correspondents only in Sept 2026
+CTFN,policy_research,https://ctfn.news/,detect,,guess,
+MLex,policy_research,,detect,,guess,
+Hunterbrook,investigative_fund,,detect,,guess,Legal-vetting function
+Point72,fund,https://careers.point72.com/,custom + greenhouse,point72,verified,Academy (CPA-0014729); Canvas (PMI-0005694); also greenhouse board 'point72'
+Bridgewater Associates,fund,https://job-boards.greenhouse.io/bridgewater89,greenhouse,bridgewater89,verified,Also 'bridgewatercampusrecruiting'
+D. E. Shaw,fund,https://www.deshaw.com/careers,custom,,verified_url,Rotational Associates live
+Citadel,fund,https://www.citadel.com/careers/,custom,,verified_url,
+Citadel Securities,trading,https://www.citadelsecurities.com/careers/,custom,,verified_url,
+Jane Street,trading,https://www.janestreet.com/join-jane-street/,greenhouse + custom,janestreet,verified,Regulatory Risk Mgmt live
+Two Sigma,fund,https://www.twosigma.com/careers/,detect,,guess,
+Millennium,fund,https://www.mlp.com/careers/,detect,,guess,
+Balyasny,fund,https://www.bamfunds.com/careers,detect,,guess,Applied AI team
+Elliott Management,fund,,detect,,guess,
+Silver Point Capital,fund,https://www.silverpointcapital.com/,detect,,guess,Head of Research ex-SCOTUS clerk
+King Street / Davidson Kempner / Centerbridge,fund,,detect,,guess,Check each
+Apollo / Ares / Oaktree / Blackstone Credit,fund,,workday (likely),,guess,Legal-adjacent credit roles
+Guggenheim Investments,fund,https://guggenheiminvestment.wd5.myworkdayjobs.com/External,workday,guggenheiminvestment|wd5|External,verified,Attorney-Restructuring live
+Capstone Investment Advisors,fund,https://job-boards.greenhouse.io/capstoneinvestmentadvisors,greenhouse,capstoneinvestmentadvisors,verified,
+Weiss Asset Management,fund,https://job-boards.greenhouse.io/weissassetmanagement,greenhouse,weissassetmanagement,verified,Boston
+Hudson River Trading / Virtu / DRW / Optiver / IMC / SIG,trading,,greenhouse (several),,guess,Regulatory & legal seats
+Harvey,legal_ai,https://jobs.ashbyhq.com/harvey,ashby,harvey,verified,Pipeline; ALR vs Legal Engineer split
+Legora,legal_ai,https://jobs.ashbyhq.com/legora,ashby,legora,verified,
+Norm AI,legal_ai,https://www.norm.ai/careers,detect,,verified_url,Pipeline
+Hebbia,legal_ai,,detect,,guess,Pipeline
+EvenUp / Eudia / Spellbook / Luminance / Robin AI / Crosby,legal_ai,,detect,,guess,Check each
+Thomson Reuters (CoCounsel),legal_ai,,workday (likely),,guess,
+OpenAI,ai_lab,https://openai.com/careers/,detect (ashby likely),openai,guess,SME / eval roles
+Anthropic,ai_lab,https://www.anthropic.com/careers,greenhouse (likely),anthropic,guess,
+Mercor / Scale AI / Surge / Handshake AI / Snorkel,ai_eval,,detect,,guess,Contract legal/finance experts
+AlphaSense,research_vendor,https://job-boards.greenhouse.io/alphasense,greenhouse,alphasense,verified,
+Third Bridge / AlphaSights / GLG / Tegus,research_vendor,,detect,,guess,Expert-network research seats (gap area)
+Marqeta,fintech,,detect,,guess,Pipeline
+Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI,fintech,,ashby/greenhouse (various),,guess,Product/regulatory counsel
+Rain,fintech,https://jobs.ashbyhq.com/rain,ashby,rain,verified,
+Plaid,fintech,https://jobs.ashbyhq.com/plaid,ashby,plaid,verified,
+Circle / Paxos / Gemini / Coinbase / Chainalysis / Fireblocks / Figure,crypto,,various,,guess,Coinbase custom at coinbase.com/careers
+Kalshi,prediction_markets,https://jobs.ashbyhq.com/kalshi,ashby (+greenhouse 'kalshi'),kalshi,verified,Regulatory counsel seats
+Polymarket,prediction_markets,,detect,,guess,
+CME / Nasdaq / ICE / DTCC / Cboe,exchange,,workday (likely),,guess,Market-structure / regulatory
+Mastercard,fintech,,workday (likely),,guess,Senior Counsel Regulatory-Technology seen on BuiltIn
+NYDFS,public,https://www.dfs.ny.gov/careers,custom (PDF postings),,verified_url,Senior Attorney PDF Feb 2026; RAISE Act enforcer 2027
+NY Attorney General,public,https://ag.ny.gov/job-postings,custom (PDF postings),,verified_url,Consumer Frauds AAG due Oct 16 2026
+Federal Reserve Bank of New York,public,https://www.newyorkfed.org/careers,detect,,guess,Not subject to OPM freeze [background]
+FINRA,sro,https://www.finra.org/careers,detect,,guess,Policy seats mostly senior
+SEC / CFTC / OCC / CFPB,public,https://data.usajobs.gov/,usajobs_api,,verified_api,Needs free USAJobs API key
+LSTA / ISDA / SIFMA / Bank Policy Institute,trade_assoc,,detect,,guess,
+Morgan Stanley,bank,https://www.morganstanley.com/careers/career-opportunities-search,detect,,verified_url,Internal mobility 18-24 mo (tertiary)

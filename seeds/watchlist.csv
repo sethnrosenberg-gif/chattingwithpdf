@@ -1,0 +1,14 @@
+label,company,method,target,title_regex,location_regex,kind,note
+"Point72, International Sector Analyst, Market Intelligence",Point72,point72,careers.point72.com,international sector analyst,,closed,Seed: removed Sept. 7 2026
+"Octus (Reorg), Legal Analyst",Octus,greenhouse,octus,legal analyst,,closed,Seed: no open legal-analyst seat
+"Debtwire, Senior Legal Analyst",Debtwire (ION Analytics),lever,ion,legal analyst,,closed,ION Group posts Debtwire roles on Lever board 'ion'
+"Citi, Risk Arbitrage Trader, Director",Citi,workday,citi|wd5|2,risk arbitrage,,closed,Seed: past Aug. 19 2026 close date; 10+ yrs trading
+"Selby Jennings, Senior Merger Arbitrage Analyst (London)",Selby Jennings,page,https://www.selbyjennings.com/jobs,merger arbitrage,,closed,Recruiter; London role
+"Horizon Group, Distressed Credit Analyst",Horizon Group,none,,distressed credit analyst,,closed,Seed: posting dated 2015; no employer board identified
+"Morgan Stanley, Equity Research Associate (London)",Morgan Stanley,workday,ms|wd5|External,equity research.*associate|research associate.*equity,london,closed,Seed: closed
+"Kerrisdale Capital, analyst",Kerrisdale Capital,page,https://www.kerrisdalecap.com/analyst-hiring/,investment analyst,,closed,Email-to-apply page; seed could not load it
+Quantamental Researcher,Tower Research Capital,greenhouse,towerresearchcapital,quantamental,,resolve,Seed row linked to JobLeads; Tower posts on Greenhouse
+"Director, Global Macro",Horizon Engage,page,https://www.horizonengage.com/careers,"director, global macro",,resolve,Seed row linked to politicalriskjobs.com; employer careers page lists roles
+Merger Arbitrage & Event-Driven Analyst,Mondrian Delta,none,,merger arbitrage,,resolve,Mondrian Delta is a headhunter for an unnamed fund; its site has no job pages
+Regulatory Risk Management,Jane Street,janestreet,janestreet,regulatory risk,,resolve,Look for a repost if the seed ID closed
+"VP, Financial Services Investment & Policy",Capstone,workday,capstonedc|wd501|Capstone,financial services.*(investment|policy)|investment.*policy,,resolve,Greenhouse board 'capstonedc' is gone; careers page now links to Workday
