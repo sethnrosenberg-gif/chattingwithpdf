@@ -40,6 +40,13 @@ re-scores, summarizes the diff and commits the outputs.
 
 `make` isn't required; every Makefile target is a thin wrapper over `python -m radar ...`.
 
+## Running on GitHub and the Lovable app
+
+`.github/workflows/refresh.yml` runs `python -m radar refresh` on GitHub's servers and commits the results. Start it
+from the repo's Actions tab ("refresh" → Run workflow) or from a front end through the GitHub API. It has no schedule
+unless you add one. Those runs can't make the Claude judgment calls, so run `/refresh-jobs` afterwards to judge new rows.
+[docs/LOVABLE.md](docs/LOVABLE.md) has the prompt and build steps for a Lovable dashboard over these outputs.
+
 ## Politeness rules baked into the client (`radar/http.py`)
 
 - 1 request per second per host (or the host's `Crawl-delay`), enforced across processes.

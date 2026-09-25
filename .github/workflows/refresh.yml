@@ -1,0 +1,72 @@
+# Runs the job radar on GitHub's servers and commits the results.
+# Started by hand from the Actions tab, or by the Lovable app's "Run sweep now" button
+# (workflow_dispatch via the GitHub API). No schedule: add one under `on:` if you want weekly runs, e.g.
+#   schedule:
+#     - cron: "0 11 * * 1"   # Mondays 11:00 UTC
+#
+# Judgment calls (sales-attached, domain-years floor) need Claude, which this workflow can't reach.
+# New fit rows are scored by the rules alone and exported to data/judgments/pending; running
+# /refresh-jobs in Claude Code afterwards judges them and re-scores.
+
+name: refresh
+
+on:
+  workflow_dispatch:
+    inputs:
+      skip_commoncrawl:
+        description: "Skip the Common Crawl sweep (saves ~40 minutes)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      PYTHONIOENCODING: utf-8
+      RADAR_CONTACT_EMAIL: sethnrosenberg@gmail.com
+      # user-approved: Common Crawl's index server disallows robots, but publishes the CDX API for programs
+      RADAR_ROBOTS_EXEMPT_HOSTS: index.commoncrawl.org
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+      USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
+      ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+      ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+      SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Run the radar
+        run: |
+          if [ "${{ inputs.skip_commoncrawl }}" = "true" ]; then
+            python -m radar refresh --channels public_sector official_apis hn websearch wayback
+          else
+            python -m radar refresh
+          fi
+
+      - name: Commit results
+        run: |
+          git config user.name "job-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add out/ data/snapshots/ data/leads.jsonl data/judgments.jsonl data/cc_boards.json data/discovered_boards.csv seeds/companies.csv
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Job radar refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

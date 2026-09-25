@@ -125,7 +125,7 @@ def write(posts: list[Posting], closed_notes: list[str], stats: dict) -> dict:
         if bits:
             changes.append(f"- [{_esc(p.title)}]({p.url}), {_esc(p.company)}: " + "; ".join(bits))
     D = [f"# Changes since the last run ({base_label})", "", f"Run {run}.", "",
-         f"## New ({sum(new.values())})", ""]
+         f"## New ({sum(1 for p in posts if new[p.key] and p.bucket in ('fit', 'poor', 'outside'))})", ""]
     for b in ("fit", "poor", "outside"):
         ns = [p for p in posts if new[p.key] and p.bucket == b]
         if ns:
