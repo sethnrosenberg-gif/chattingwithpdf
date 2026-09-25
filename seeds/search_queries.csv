@@ -1,0 +1,15 @@
+query,channel,results_used
+"site:job-boards.greenhouse.io ""legal analyst"" New York",websearch:ats,0
+"site:jobs.ashbyhq.com ""legal analyst"" OR ""bankruptcy"" OR ""restructuring""",websearch:ats,3
+"site:job-boards.greenhouse.io ""clerkship"" counsel New York",websearch:ats,3
+"site:jobs.lever.co litigation underwriting OR ""litigation finance""",websearch:ats,0
+"site:jobs.ashbyhq.com ""regulatory counsel"" OR ""payments counsel"" OR ""product counsel""",websearch:ats,9
+"site:job-boards.greenhouse.io ""prediction markets"" OR stablecoin counsel OR policy",websearch:ats,0
+"site:jobs.ashbyhq.com ""regulatory"" counsel crypto OR stablecoin OR ""digital assets"" New York",websearch:ats,3
+"site:job-boards.greenhouse.io ""regulatory counsel"" OR ""policy counsel"" fintech OR crypto",websearch:ats,5
+"site:job-boards.greenhouse.io ""legal engineer"" OR ""applied legal"" OR ""legal research"" AI New York",websearch:ats,1
+"litigation finance underwriting associate job New York 2026 ""litigation finance""",websearch:aggregator,2
+"site:builtinnyc.com ""regulatory counsel"" OR ""legal analyst"" OR ""product counsel"" fintech",websearch:aggregator,3
+"site:jobs.ashbyhq.com ""AI governance"" OR ""AI policy"" counsel OR lawyer",websearch:ats,6
+"site:legal.io OR site:goinhouse.com regulatory counsel New York fintech 2026",websearch:aggregator,5
+"site:job-boards.greenhouse.io ""market intelligence"" OR ""event-driven"" OR ""special situations"" analyst New York",websearch:ats,1

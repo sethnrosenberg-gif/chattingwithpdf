@@ -37,7 +37,9 @@ def rmk_sitemap(host: str) -> tuple[str, list[str]]:
     r = client().get(f"https://{host}/sitemap.xml")
     if not r.ok:
         return r.describe(), []
-    return "ok", re.findall(r"<loc>([^<]+/job/[^<]+)</loc>", r.text)
+    import html as htmllib
+
+    return "ok", [htmllib.unescape(u) for u in re.findall(r"<loc>([^<]+/job/[^<]+)</loc>", r.text)]
 
 
 def rmk_title_from_url(url: str) -> str:

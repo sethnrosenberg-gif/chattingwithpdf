@@ -1,72 +1,124 @@
-company,segment,careers_url,ats_hint,ats_slug_or_tenant,confidence,notes
-Burford Capital,litigation_finance,https://careers.burfordcapital.com/,custom (jobs2web-style),,verified_url,VP Commercial + VP Patent live Sept 2026; Associate tier exists
-Parabellum Capital,litigation_finance,https://www.parabellumcap.com/,detect,,guess,16-person team; rare openings
-Fortress Investment Group (Legal Assets),litigation_finance,https://www.fortress.com/,detect,,guess,Legal-assets team hires ex-litigators
-Omni Bridgeway,litigation_finance,https://omnibridgeway.com/,detect,,guess,
-Longford Capital,litigation_finance,https://www.longfordcapital.com/,detect,,guess,
-Legalist,litigation_finance,https://www.legalist.com/,detect,,guess,
-Bench Walk Advisors,litigation_finance,,detect,,guess,
-Certum Group,litigation_finance,https://www.certumgroup.com/,detect,,guess,Absorbed Validity; William Marra
-Parabellum / LCM / Therium / Harbour,litigation_finance,,detect,,guess,Check each separately
-GLS Capital,litigation_finance,https://www.glscap.com/,detect,,guess,
-Octus,credit_intelligence,https://octus.com/company/careers/,greenhouse,octus,verified,Legal Analyst family recurs; Covenants Lawyer live
-9fin,credit_intelligence,https://jobs.ashbyhq.com/9fin,ashby,9fin,verified,Bankruptcy/LME legal analyst families recur
-Debtwire (ION Analytics),credit_intelligence,https://iongroup.com/careers/,detect (ION custom),,verified_url,Legal analyst removed Oct 2025
-Fitch Group (LevFin Insights / CreditSights),credit_intelligence,https://careers.fitch.group/,custom (jobs2web-style),,verified_url,Covenant director live Sept 2026
-PitchBook (LCD),credit_intelligence,https://pitchbook.com/careers,detect,,guess,
-Bloomberg (Intelligence / Law),credit_intelligence,https://bloomberg.avature.net/careers,avature,bloomberg,verified_url,BI litigation analysts; Bloomberg Law legal analysts
-S&P Global / Moody's,credit_intelligence,,workday (likely),,guess,Legal/covenant research seats
-Capstone DC,policy_research,https://job-boards.greenhouse.io/capstonedc,greenhouse,capstonedc,verified,FS investment & policy VP live
-Beacon Policy Advisors,policy_research,https://beaconpa.com/,detect,,guess,
-Height Capital Markets,policy_research,,detect,,guess,
-Strategas,policy_research,,detect,,guess,
-Evercore ISI (policy),policy_research,,detect,,guess,
-Eurasia Group,policy_research,https://www.eurasiagroup.net/,detect,,guess,
-The Capitol Forum,policy_research,https://thecapitolforum.com/careers/,detect,,verified_url,Correspondents only in Sept 2026
-CTFN,policy_research,https://ctfn.news/,detect,,guess,
-MLex,policy_research,,detect,,guess,
-Hunterbrook,investigative_fund,,detect,,guess,Legal-vetting function
-Point72,fund,https://careers.point72.com/,custom + greenhouse,point72,verified,Academy (CPA-0014729); Canvas (PMI-0005694); also greenhouse board 'point72'
-Bridgewater Associates,fund,https://job-boards.greenhouse.io/bridgewater89,greenhouse,bridgewater89,verified,Also 'bridgewatercampusrecruiting'
-D. E. Shaw,fund,https://www.deshaw.com/careers,custom,,verified_url,Rotational Associates live
-Citadel,fund,https://www.citadel.com/careers/,custom,,verified_url,
-Citadel Securities,trading,https://www.citadelsecurities.com/careers/,custom,,verified_url,
-Jane Street,trading,https://www.janestreet.com/join-jane-street/,greenhouse + custom,janestreet,verified,Regulatory Risk Mgmt live
-Two Sigma,fund,https://www.twosigma.com/careers/,detect,,guess,
-Millennium,fund,https://www.mlp.com/careers/,detect,,guess,
-Balyasny,fund,https://www.bamfunds.com/careers,detect,,guess,Applied AI team
-Elliott Management,fund,,detect,,guess,
-Silver Point Capital,fund,https://www.silverpointcapital.com/,detect,,guess,Head of Research ex-SCOTUS clerk
-King Street / Davidson Kempner / Centerbridge,fund,,detect,,guess,Check each
-Apollo / Ares / Oaktree / Blackstone Credit,fund,,workday (likely),,guess,Legal-adjacent credit roles
-Guggenheim Investments,fund,https://guggenheiminvestment.wd5.myworkdayjobs.com/External,workday,guggenheiminvestment|wd5|External,verified,Attorney-Restructuring live
-Capstone Investment Advisors,fund,https://job-boards.greenhouse.io/capstoneinvestmentadvisors,greenhouse,capstoneinvestmentadvisors,verified,
-Weiss Asset Management,fund,https://job-boards.greenhouse.io/weissassetmanagement,greenhouse,weissassetmanagement,verified,Boston
-Hudson River Trading / Virtu / DRW / Optiver / IMC / SIG,trading,,greenhouse (several),,guess,Regulatory & legal seats
-Harvey,legal_ai,https://jobs.ashbyhq.com/harvey,ashby,harvey,verified,Pipeline; ALR vs Legal Engineer split
-Legora,legal_ai,https://jobs.ashbyhq.com/legora,ashby,legora,verified,
-Norm AI,legal_ai,https://www.norm.ai/careers,detect,,verified_url,Pipeline
-Hebbia,legal_ai,,detect,,guess,Pipeline
-EvenUp / Eudia / Spellbook / Luminance / Robin AI / Crosby,legal_ai,,detect,,guess,Check each
-Thomson Reuters (CoCounsel),legal_ai,,workday (likely),,guess,
-OpenAI,ai_lab,https://openai.com/careers/,detect (ashby likely),openai,guess,SME / eval roles
-Anthropic,ai_lab,https://www.anthropic.com/careers,greenhouse (likely),anthropic,guess,
-Mercor / Scale AI / Surge / Handshake AI / Snorkel,ai_eval,,detect,,guess,Contract legal/finance experts
-AlphaSense,research_vendor,https://job-boards.greenhouse.io/alphasense,greenhouse,alphasense,verified,
-Third Bridge / AlphaSights / GLG / Tegus,research_vendor,,detect,,guess,Expert-network research seats (gap area)
-Marqeta,fintech,,detect,,guess,Pipeline
-Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI,fintech,,ashby/greenhouse (various),,guess,Product/regulatory counsel
-Rain,fintech,https://jobs.ashbyhq.com/rain,ashby,rain,verified,
-Plaid,fintech,https://jobs.ashbyhq.com/plaid,ashby,plaid,verified,
-Circle / Paxos / Gemini / Coinbase / Chainalysis / Fireblocks / Figure,crypto,,various,,guess,Coinbase custom at coinbase.com/careers
-Kalshi,prediction_markets,https://jobs.ashbyhq.com/kalshi,ashby (+greenhouse 'kalshi'),kalshi,verified,Regulatory counsel seats
-Polymarket,prediction_markets,,detect,,guess,
-CME / Nasdaq / ICE / DTCC / Cboe,exchange,,workday (likely),,guess,Market-structure / regulatory
-Mastercard,fintech,,workday (likely),,guess,Senior Counsel Regulatory-Technology seen on BuiltIn
-NYDFS,public,https://www.dfs.ny.gov/careers,custom (PDF postings),,verified_url,Senior Attorney PDF Feb 2026; RAISE Act enforcer 2027
-NY Attorney General,public,https://ag.ny.gov/job-postings,custom (PDF postings),,verified_url,Consumer Frauds AAG due Oct 16 2026
-Federal Reserve Bank of New York,public,https://www.newyorkfed.org/careers,detect,,guess,Not subject to OPM freeze [background]
-FINRA,sro,https://www.finra.org/careers,detect,,guess,Policy seats mostly senior
-SEC / CFTC / OCC / CFPB,public,https://data.usajobs.gov/,usajobs_api,,verified_api,Needs free USAJobs API key
-LSTA / ISDA / SIFMA / Bank Policy Institute,trade_assoc,,detect,,guess,
-Morgan Stanley,bank,https://www.morganstanley.com/careers/career-opportunities-search,detect,,verified_url,Internal mobility 18-24 mo (tertiary)
+company,segment,careers_url,ats_hint,ats_slug_or_tenant,confidence,notes,ats,slug,board_status,jobs_total,jobs_relevant_us,last_checked,detect_note
+Burford Capital,litigation_finance,https://careers.burfordcapital.com/,custom (jobs2web-style),,verified_url,VP Commercial + VP Patent live Sept 2026; Associate tier exists,successfactors,careers.burfordcapital.com,ok,2,2,2026-09-24,SuccessFactors sitemap
+Parabellum Capital,litigation_finance,https://www.parabellumcap.com/,detect,,guess,16-person team; rare openings,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Fortress Investment Group (Legal Assets),litigation_finance,https://www.fortress.com/,detect,,guess,Legal-assets team hires ex-litigators,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Omni Bridgeway,litigation_finance,https://omnibridgeway.com/,detect,,guess,,bamboohr,omnibridgeway,ok,6,2,2026-09-24,probe hit (6 jobs; board 'omnibridgeway')
+Longford Capital,litigation_finance,https://www.longfordcapital.com/,detect,,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Legalist,litigation_finance,https://www.legalist.com/,detect,,guess,,greenhouse,legalist,ok,5,0,2026-09-24,linked from https://www.legalist.com/
+Bench Walk Advisors,litigation_finance,,detect,,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Certum Group,litigation_finance,https://www.certumgroup.com/,detect,,guess,Absorbed Validity; William Marra,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Parabellum,litigation_finance,,detect,,guess,split from 'Parabellum / LCM / Therium / Harbour'; Check each separately,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+LCM,litigation_finance,,detect,,guess,split from 'Parabellum / LCM / Therium / Harbour'; Check each separately,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Therium,litigation_finance,,detect,,guess,split from 'Parabellum / LCM / Therium / Harbour'; Check each separately,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Harbour,litigation_finance,,detect,,guess,split from 'Parabellum / LCM / Therium / Harbour'; Check each separately,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+GLS Capital,litigation_finance,https://www.glscap.com/,detect,,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Octus,credit_intelligence,https://octus.com/company/careers/,greenhouse,octus,verified,Legal Analyst family recurs; Covenants Lawyer live,greenhouse,octus,ok,35,3,2026-09-24,registry slug confirmed (35 jobs)
+9fin,credit_intelligence,https://jobs.ashbyhq.com/9fin,ashby,9fin,verified,Bankruptcy/LME legal analyst families recur,ashby,9fin,ok,33,1,2026-09-24,registry slug confirmed (33 jobs)
+Debtwire (ION Analytics),credit_intelligence,https://iongroup.com/careers/,lever,ion,verified,ION Group posts Debtwire roles on Lever board 'ion',lever,ion,ok,89,2,2026-09-24,registry slug confirmed (89 jobs)
+Fitch Group (LevFin Insights / CreditSights),credit_intelligence,,custom (jobs2web-style),,guess,Covenant director live Sept 2026,successfactors,careers.fitch.group,ok,57,37,2026-09-24,SuccessFactors sitemap
+PitchBook (LCD),credit_intelligence,https://pitchbook.com/careers,greenhouse,pitchbook;pitchbookdata,guess,,greenhouse,pitchbookdata,ok,23,0,2026-09-24,registry hint confirmed by probe
+Bloomberg (Intelligence / Law),credit_intelligence,,avature,,guess,BI litigation analysts; Bloomberg Law legal analysts,blocked,,blocked,,,2026-09-24,bloomberg.avature.net sitemap lists no job pages and job search needs JS; no public JSON feed found
+S&P Global,credit_intelligence,,workday,spgi|wd5|SPGI_Careers,guess,split from 'S&P Global / Moody's'; Legal/covenant research seats,workday,spgi|wd5|SPGI_Careers,ok,284,2,2026-09-24,registry hint (verified)
+Moody's,credit_intelligence,,workday,moodys|wd5|Careers;moodys|wd1|External,guess,split from 'S&P Global / Moody's'; Legal/covenant research seats,none,,none,0,0,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Capstone DC,policy_research,https://job-boards.greenhouse.io/capstonedc,workday,capstonedc|wd501|Capstone,verified,Moved from Greenhouse to Workday (seen Sept 2026),workday,capstonedc|wd501|Capstone,ok,15,6,2026-09-24,registry hint (verified)
+Beacon Policy Advisors,policy_research,https://beaconpa.com/,detect,,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Height Capital Markets,policy_research,,detect,,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Strategas,policy_research,,detect,,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Evercore ISI (policy),policy_research,,detect,,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Eurasia Group,policy_research,https://www.eurasiagroup.net/,greenhouse,eurasiagroup,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+The Capitol Forum,policy_research,https://thecapitolforum.com/careers/,detect,,verified_url,Correspondents only in Sept 2026,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+CTFN,policy_research,https://ctfn.news/,detect,,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+MLex,policy_research,,detect,,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Hunterbrook,investigative_fund,,ashby,hunterbrook,guess,Legal-vetting function,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Point72,fund,https://careers.point72.com/,custom (CSSitemap),point72,verified,Academy (CPA-0014729); Canvas (PMI-0005694); also greenhouse board 'point72',point72,careers.point72.com,ok,16,8,2026-09-24,careers.point72.com CSSitemap + JSON-LD job pages
+Bridgewater Associates,fund,https://job-boards.greenhouse.io/bridgewater89,greenhouse,bridgewater89,verified,Also 'bridgewatercampusrecruiting',greenhouse,bridgewater89,ok,14,1,2026-09-24,registry slug confirmed (14 jobs)
+D. E. Shaw,fund,https://www.deshaw.com/careers,custom,,verified_url,Rotational Associates live,blocked,,blocked,,,2026-09-24,robots.txt disallows /careers/open-roles and the sitemap lists no job pages; individual role URLs are verified when a lead points at them
+Citadel,fund,https://www.citadel.com/careers/,custom,,verified_url,,blocked,,blocked,,,2026-09-24,citadel.com job pages sit behind a Cloudflare challenge; not bypassed
+Citadel Securities,trading,https://www.citadelsecurities.com/careers/,custom,,verified_url,,blocked,,blocked,,,2026-09-24,citadel.com job pages sit behind a Cloudflare challenge; not bypassed
+Jane Street,trading,https://www.janestreet.com/join-jane-street/,greenhouse + custom,janestreet,verified,Regulatory Risk Mgmt live,janestreet,janestreet,ok,228,6,2026-09-24,Jane Street's own jobs feed (janestreet.com/jobs/main.json)
+Two Sigma,fund,https://www.twosigma.com/careers/,greenhouse,twosigma;twosigmainvestments,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Millennium,fund,https://www.mlp.com/careers/,workday,mlp|wd5|mlpcareers;mlp|wd1|External,guess,,none,,none,0,0,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Balyasny,fund,https://www.bamfunds.com/careers,greenhouse,bamfunds;balyasny,guess,Applied AI team,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Elliott Management,fund,,greenhouse,elliottmanagement,guess,,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Silver Point Capital,fund,https://www.silverpointcapital.com/,detect,,guess,Head of Research ex-SCOTUS clerk,none,,none,45,0,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+King Street,fund,,greenhouse,kingstreetcapital,guess,split from 'King Street / Davidson Kempner / Centerbridge'; Check each,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Davidson Kempner,fund,,greenhouse,davidsonkempner,guess,split from 'King Street / Davidson Kempner / Centerbridge'; Check each,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Centerbridge,fund,,greenhouse,centerbridgepartners;centerbridge,guess,split from 'King Street / Davidson Kempner / Centerbridge'; Check each,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Apollo,fund,,workday,athene|wd5|Apollo_Careers,guess,split from 'Apollo / Ares / Oaktree / Blackstone Credit'; Legal-adjacent credit roles,workday,athene|wd5|Apollo_Careers,ok,67,0,2026-09-24,registry hint (verified)
+Ares,fund,,workday,aresmgmt|wd1|External,guess,split from 'Apollo / Ares / Oaktree / Blackstone Credit'; Legal-adjacent credit roles,workday,aresmgmt|wd1|External,ok,271,3,2026-09-24,registry hint (verified)
+Oaktree,fund,,workday,oaktree|wd1|Oaktree_Careers,guess,split from 'Apollo / Ares / Oaktree / Blackstone Credit'; Legal-adjacent credit roles,bamboohr,oaktree,ok,12,0,2026-09-24,probe hit (12 jobs; board 'oaktree')
+Blackstone Credit,fund,,workday,blackstone|wd1|Blackstone_Careers,guess,split from 'Apollo / Ares / Oaktree / Blackstone Credit'; Legal-adjacent credit roles,workday,blackstone|wd1|Blackstone_Careers,ok,177,10,2026-09-24,registry hint (verified)
+Guggenheim Investments,fund,https://guggenheiminvestment.wd5.myworkdayjobs.com/External,workday,guggenheiminvestment|wd5|External,verified,Attorney-Restructuring live,workday,guggenheiminvestment|wd5|External,ok,19,2,2026-09-24,registry hint (verified)
+Capstone Investment Advisors,fund,https://job-boards.greenhouse.io/capstoneinvestmentadvisors,greenhouse,capstoneinvestmentadvisors,verified,,greenhouse,capstoneinvestmentadvisors,ok,15,0,2026-09-24,registry slug confirmed (15 jobs)
+Weiss Asset Management,fund,https://job-boards.greenhouse.io/weissassetmanagement,greenhouse,weissassetmanagement,verified,Boston,greenhouse,weissassetmanagement,ok,4,1,2026-09-24,registry slug confirmed (4 jobs)
+Hudson River Trading,trading,,greenhouse,wehrtyou,guess,split from 'Hudson River Trading / Virtu / DRW / Optiver / IMC / SIG'; Regulatory & legal seats,greenhouse,wehrtyou,ok,85,0,2026-09-24,registry hint confirmed by probe
+Virtu,trading,,greenhouse (several),,guess,split from 'Hudson River Trading / Virtu / DRW / Optiver / IMC / SIG'; Regulatory & legal seats,greenhouse,virtu,ok,49,0,2026-09-24,probe hit (49 jobs; board 'Virtu Financial')
+DRW,trading,,greenhouse,drweng,guess,split from 'Hudson River Trading / Virtu / DRW / Optiver / IMC / SIG'; Regulatory & legal seats,greenhouse,drweng,ok,165,1,2026-09-24,registry hint confirmed by probe
+Optiver,trading,,greenhouse,optiverus;optiver,guess,split from 'Hudson River Trading / Virtu / DRW / Optiver / IMC / SIG'; Regulatory & legal seats,greenhouse,optiverus,ok,165,0,2026-09-24,registry hint confirmed by probe
+IMC,trading,,greenhouse (several),,guess,split from 'Hudson River Trading / Virtu / DRW / Optiver / IMC / SIG'; Regulatory & legal seats,greenhouse,imc,ok,173,4,2026-09-24,probe hit (173 jobs; board 'IMC')
+SIG,trading,,greenhouse,sig;susquehanna,guess,split from 'Hudson River Trading / Virtu / DRW / Optiver / IMC / SIG'; Regulatory & legal seats,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Harvey,legal_ai,https://jobs.ashbyhq.com/harvey,ashby,harvey,verified,Pipeline; ALR vs Legal Engineer split,ashby,harvey,ok,303,31,2026-09-24,registry slug confirmed (303 jobs)
+Legora,legal_ai,https://jobs.ashbyhq.com/legora,ashby,legora,verified,,ashby,legora,ok,280,26,2026-09-24,registry slug confirmed (280 jobs)
+Norm AI,legal_ai,https://www.norm.ai/careers,detect,,verified_url,Pipeline,ashby,norm-ai,ok,21,8,2026-09-24,linked from https://www.norm.ai/careers
+Hebbia,legal_ai,,ashby,hebbia,guess,Pipeline,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+EvenUp,legal_ai,,ashby,evenup;evenuplaw,guess,split from 'EvenUp / Eudia / Spellbook / Luminance / Robin AI / Crosby'; Check each,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Eudia,legal_ai,,detect,,guess,split from 'EvenUp / Eudia / Spellbook / Luminance / Robin AI / Crosby'; Check each,greenhouse,eudia,ok,19,3,2026-09-24,probe hit (19 jobs; board 'Eudia')
+Spellbook,legal_ai,,ashby,spellbook;rally,guess,split from 'EvenUp / Eudia / Spellbook / Luminance / Robin AI / Crosby'; Check each,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Luminance,legal_ai,,greenhouse,luminance,guess,split from 'EvenUp / Eudia / Spellbook / Luminance / Robin AI / Crosby'; Check each,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Robin AI,legal_ai,,ashby,robin-ai;robinai,guess,split from 'EvenUp / Eudia / Spellbook / Luminance / Robin AI / Crosby'; Check each,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Crosby,legal_ai,,detect,,guess,split from 'EvenUp / Eudia / Spellbook / Luminance / Robin AI / Crosby'; Check each,ashby,crosby,ok,18,1,2026-09-24,probe hit (18 jobs; board 'crosby')
+Thomson Reuters (CoCounsel),legal_ai,,workday,thomsonreuters|wd5|External_Career_Site,guess,,workday,thomsonreuters|wd5|External_Career_Site,ok,475,5,2026-09-24,registry hint (verified)
+OpenAI,ai_lab,https://openai.com/careers/,detect (ashby likely),openai,guess,SME / eval roles,ashby,openai,ok,829,11,2026-09-24,probe hit (829 jobs; board 'openai')
+Anthropic,ai_lab,https://www.anthropic.com/careers,greenhouse (likely),anthropic,guess,,greenhouse,anthropic,ok,623,27,2026-09-24,probe hit (624 jobs; board 'Anthropic')
+Mercor,ai_eval,,detect,,guess,split from 'Mercor / Scale AI / Surge / Handshake AI / Snorkel'; Contract legal/finance experts,ashby,mercor,ok,115,0,2026-09-24,probe hit (115 jobs; board 'mercor')
+Scale AI,ai_eval,,detect,,guess,split from 'Mercor / Scale AI / Surge / Handshake AI / Snorkel'; Contract legal/finance experts,greenhouse,scaleai,ok,209,5,2026-09-24,probe hit (209 jobs; board 'Scale AI')
+Surge,ai_eval,,ashby,surgehq;surge,guess,split from 'Mercor / Scale AI / Surge / Handshake AI / Snorkel'; Contract legal/finance experts,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Handshake AI,ai_eval,,detect,,guess,split from 'Mercor / Scale AI / Surge / Handshake AI / Snorkel'; Contract legal/finance experts,greenhouse,handshake,ok,5,0,2026-09-24,probe hit (5 jobs; board 'Handshake')
+Snorkel,ai_eval,,greenhouse,snorkelai,guess,split from 'Mercor / Scale AI / Surge / Handshake AI / Snorkel'; Contract legal/finance experts,greenhouse,snorkelai,ok,37,2,2026-09-24,registry hint confirmed by probe
+AlphaSense,research_vendor,https://job-boards.greenhouse.io/alphasense,greenhouse,alphasense,verified,,greenhouse,alphasense,ok,214,1,2026-09-24,registry slug confirmed (214 jobs)
+Third Bridge,research_vendor,,detect,,guess,split from 'Third Bridge / AlphaSights / GLG / Tegus'; Expert-network research seats (gap area),greenhouse,thirdbridge,ok,129,0,2026-09-24,probe hit (129 jobs; board 'Third Bridge')
+AlphaSights,research_vendor,,detect,,guess,split from 'Third Bridge / AlphaSights / GLG / Tegus'; Expert-network research seats (gap area),greenhouse,alphasights,ok,68,1,2026-09-24,probe hit (68 jobs; board 'AlphaSights')
+GLG,research_vendor,,detect,,guess,split from 'Third Bridge / AlphaSights / GLG / Tegus'; Expert-network research seats (gap area),none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Tegus,research_vendor,,detect,,guess,split from 'Third Bridge / AlphaSights / GLG / Tegus'; Expert-network research seats (gap area),none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Marqeta,fintech,,greenhouse,marqeta,guess,Pipeline,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Ramp,fintech,,ashby/greenhouse (various),,guess,split from 'Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI'; Product/regulatory counsel,ashby,ramp,ok,155,1,2026-09-24,probe hit (155 jobs; board 'ramp')
+Plaid,fintech,,ashby/greenhouse (various),,guess,split from 'Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI'; Product/regulatory counsel,ashby,plaid,ok,122,2,2026-09-24,probe hit (122 jobs; board 'plaid')
+Stripe,fintech,,ashby/greenhouse (various),,guess,split from 'Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI'; Product/regulatory counsel,greenhouse,stripe,ok,691,3,2026-09-24,probe hit (691 jobs; board 'Stripe')
+Affirm,fintech,,ashby/greenhouse (various),,guess,split from 'Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI'; Product/regulatory counsel,greenhouse,affirm,ok,193,3,2026-09-24,probe hit (193 jobs; board 'Affirm')
+Klarna,fintech,,greenhouse,klarna,guess,split from 'Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI'; Product/regulatory counsel,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Upstart,fintech,,ashby/greenhouse (various),,guess,split from 'Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI'; Product/regulatory counsel,greenhouse,upstart,ok,90,1,2026-09-24,probe hit (90 jobs; board 'Upstart')
+Pagaya,fintech,,ashby/greenhouse (various),,guess,split from 'Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI'; Product/regulatory counsel,greenhouse,pagaya,ok,14,0,2026-09-24,probe hit (14 jobs; board 'Pagaya ')
+Zest AI,fintech,,ashby/greenhouse (various),,guess,split from 'Ramp / Plaid / Stripe / Affirm / Klarna / Upstart / Pagaya / Zest AI'; Product/regulatory counsel,greenhouse,zestai,ok,1,0,2026-09-24,probe hit (1 jobs; board 'Zest AI')
+Rain,fintech,https://jobs.ashbyhq.com/rain,ashby,rain,verified,,ashby,rain,ok,46,5,2026-09-24,registry slug confirmed (46 jobs)
+Plaid,fintech,https://jobs.ashbyhq.com/plaid,ashby,plaid,verified,,ashby,plaid,ok,122,2,2026-09-24,registry slug confirmed (122 jobs)
+Circle,crypto,,various,,guess,split from 'Circle / Paxos / Gemini / Coinbase / Chainalysis / Fireblocks / Figure'; Coinbase custom at coinbase.com/careers,ashby,circle,ok,9,0,2026-09-24,probe hit (9 jobs; board 'circle')
+Paxos,crypto,,various,,guess,split from 'Circle / Paxos / Gemini / Coinbase / Chainalysis / Fireblocks / Figure'; Coinbase custom at coinbase.com/careers,ashby,paxos,ok,13,1,2026-09-24,probe hit (13 jobs; board 'paxos')
+Gemini,crypto,,various,,guess,split from 'Circle / Paxos / Gemini / Coinbase / Chainalysis / Fireblocks / Figure'; Coinbase custom at coinbase.com/careers,greenhouse,gemini,ok,35,1,2026-09-24,probe hit (35 jobs; board 'Gemini')
+Coinbase,crypto,,various,,guess,split from 'Circle / Paxos / Gemini / Coinbase / Chainalysis / Fireblocks / Figure'; Coinbase custom at coinbase.com/careers,greenhouse,coinbase,ok,211,8,2026-09-24,probe hit (214 jobs; board 'Coinbase')
+Chainalysis,crypto,,greenhouse,chainalysis;chainalysisinc,guess,split from 'Circle / Paxos / Gemini / Coinbase / Chainalysis / Fireblocks / Figure'; Coinbase custom at coinbase.com/careers,none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Fireblocks,crypto,,various,,guess,split from 'Circle / Paxos / Gemini / Coinbase / Chainalysis / Fireblocks / Figure'; Coinbase custom at coinbase.com/careers,greenhouse,fireblocks,ok,70,3,2026-09-24,probe hit (70 jobs; board 'Fireblocks')
+Figure,crypto,,various,,guess,split from 'Circle / Paxos / Gemini / Coinbase / Chainalysis / Fireblocks / Figure'; Coinbase custom at coinbase.com/careers,greenhouse,figure,ok,16,3,2026-09-24,probe hit (16 jobs; board 'Figure Lending')
+Kalshi,prediction_markets,https://jobs.ashbyhq.com/kalshi,ashby (+greenhouse 'kalshi'),kalshi,verified,Regulatory counsel seats,ashby,kalshi,ok,42,3,2026-09-24,registry slug confirmed (42 jobs)
+Polymarket,prediction_markets,,detect,,guess,,ashby,polymarket,ok,63,8,2026-09-24,probe hit (63 jobs; board 'polymarket')
+CME,exchange,,workday,cmegroup|wd1|cme_careers,guess,split from 'CME / Nasdaq / ICE / DTCC / Cboe'; Market-structure / regulatory,workday,cmegroup|wd1|cme_careers,ok,44,1,2026-09-24,registry hint (verified)
+Nasdaq,exchange,,workday,nasdaq|wd1|Global_External_Site,guess,split from 'CME / Nasdaq / ICE / DTCC / Cboe'; Market-structure / regulatory,workday,nasdaq|wd1|Global_External_Site,ok,178,4,2026-09-24,registry hint (verified)
+ICE,exchange,,workday,intercontinentalexchange|wd1|ICE,guess,split from 'CME / Nasdaq / ICE / DTCC / Cboe'; Market-structure / regulatory,none,,none,0,0,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+DTCC,exchange,,workday,dtcc|wd1|dtcc,guess,split from 'CME / Nasdaq / ICE / DTCC / Cboe'; Market-structure / regulatory,none,,none,0,0,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Cboe,exchange,,workday,cboe|wd1|External_Career_CBOE,guess,split from 'CME / Nasdaq / ICE / DTCC / Cboe'; Market-structure / regulatory,workday,cboe|wd1|External_Career_CBOE,ok,59,2,2026-09-24,registry hint (verified)
+Mastercard,fintech,,workday,mastercard|wd1|CorporateCareers,guess,Senior Counsel Regulatory-Technology seen on BuiltIn,workday,mastercard|wd1|CorporateCareers,ok,1065,8,2026-09-24,registry hint (verified)
+NYDFS,public,https://www.dfs.ny.gov/careers,custom (PDF postings),,verified_url,Senior Attorney PDF Feb 2026; RAISE Act enforcer 2027,channel,public_sector,channel,,,2026-09-24,covered by the public_sector discovery channel
+NY Attorney General,public,https://ag.ny.gov/job-postings,custom (PDF postings),,verified_url,Consumer Frauds AAG due Oct 16 2026,channel,public_sector,channel,,,2026-09-24,covered by public_sector (ag.ny.gov refuses this client; statejobs.ny.gov mirrors the postings)
+Federal Reserve Bank of New York,public,https://www.newyorkfed.org/careers,detect,,guess,Not subject to OPM freeze [background],channel,public_sector,channel,,,2026-09-24,covered by the public_sector discovery channel
+FINRA,sro,https://www.finra.org/careers,detect,,guess,Policy seats mostly senior,channel,public_sector,channel,,,2026-09-24,covered by the public_sector discovery channel
+SEC,public,,usajobs_api,,guess,split from 'SEC / CFTC / OCC / CFPB'; Needs free USAJobs API key,channel,official_apis,channel,,,2026-09-24,USAJobs (needs an API key)
+CFTC,public,,usajobs_api,,guess,split from 'SEC / CFTC / OCC / CFPB'; Needs free USAJobs API key,channel,official_apis,channel,,,2026-09-24,USAJobs (needs an API key)
+OCC,public,,usajobs_api,,guess,split from 'SEC / CFTC / OCC / CFPB'; Needs free USAJobs API key,channel,official_apis,channel,,,2026-09-24,USAJobs (needs an API key)
+CFPB,public,,usajobs_api,,guess,split from 'SEC / CFTC / OCC / CFPB'; Needs free USAJobs API key,channel,official_apis,channel,,,2026-09-24,USAJobs (needs an API key)
+LSTA,trade_assoc,,detect,,guess,split from 'LSTA / ISDA / SIFMA / Bank Policy Institute',none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+ISDA,trade_assoc,,detect,,guess,split from 'LSTA / ISDA / SIFMA / Bank Policy Institute',none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+SIFMA,trade_assoc,,detect,,guess,split from 'LSTA / ISDA / SIFMA / Bank Policy Institute',none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Bank Policy Institute,trade_assoc,,detect,,guess,split from 'LSTA / ISDA / SIFMA / Bank Policy Institute',none,,none,,,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"
+Morgan Stanley,bank,https://www.morganstanley.com/careers/career-opportunities-search,workday,ms|wd5|External,verified,Internal mobility 18-24 mo (tertiary),workday,ms|wd5|External,ok,1326,20,2026-09-24,registry hint (verified)
+Citi,bank,https://jobs.citi.com/,workday,citi|wd5|2,verified,Risk Arbitrage Trader live Sept 2026,workday,citi|wd5|2,ok,2000,15,2026-09-24,registry hint (verified)
+Tower Research Capital,trading,https://www.tower-research.com/open-positions,greenhouse,towerresearchcapital,verified,Quantamental Researcher,greenhouse,towerresearchcapital,ok,91,0,2026-09-24,registry slug confirmed (91 jobs)
+Horizon Engage,policy_research,https://www.horizonengage.com/careers,custom,,verified_url,Lists roles on its careers page; details on politicalriskjobs.com,none,,none,1,0,2026-09-24,"no careers link to a known ATS and no probe hit (greenhouse, lever, ashby, workable, recruitee, bamboohr; smartrecruiters API is robots-blocked)"

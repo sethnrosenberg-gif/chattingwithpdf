@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 
 from ..extract import Pay
-from ..http import client
+from ..http import client, probe_client
 from ..models import Posting
 from .base import build_posting, pay_from_range
 
@@ -33,7 +33,7 @@ def _board(board: str):
 
 
 def probe(board: str) -> tuple[bool, int]:
-    r = _board(board)
+    r = probe_client().get(f"{API}/{board}", params={"includeCompensation": "true"})
     if r.ok:
         try:
             return True, len(r.json().get("jobs", []))
@@ -82,7 +82,7 @@ def _posting(board: str, j: dict, company: str, source: str) -> Posting:
         ats="ashby", board=board, job_id=j["id"], company=company, title=j.get("title", ""),
         url=j.get("jobUrl") or f"https://jobs.ashbyhq.com/{board}/{j['id']}",
         description_html=j.get("descriptionHtml"), description_text=j.get("descriptionPlain"),
-        locations=locs, remote_flag=bool(j.get("isRemote")), country=country if len(locs) <= 1 else None,
+        locations=locs, remote_flag=bool(j.get("isRemote")) and wp in ("remote", ""), country=country if len(locs) <= 1 else None,
         workplace=wp or ("remote" if j.get("isRemote") else None), pay=_pay(j.get("compensation")),
         posted=j.get("publishedAt"), apply_url=j.get("applyUrl"), source=source,
         extra_pay_text=((j.get("compensation") or {}).get("compensationTierSummary") or ""),

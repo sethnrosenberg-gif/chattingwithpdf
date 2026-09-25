@@ -49,7 +49,8 @@ def pay_extras(text: str) -> str:
     bits = []
     if re.search(r"\bbonus", t):
         bits.append("bonus")
-    if re.search(r"\bequity\b|\bstock\b|\brsus?\b|stock options", t):
+    if re.search(r"(equity|stock)[^.\n]{0,40}(grant|award|compensation|package|options|plan|incentive)|"
+                 r"(offers?|plus|\+|and|with)\s+equity\b|\brsus?\b|stock options|equity (in|ownership)", t):
         bits.append("equity")
     if re.search(r"\bcommission", t):
         bits.append("commission")
@@ -285,7 +286,12 @@ def classify_location(loc: str, *, remote_flag: bool | None = None, country: str
 
 
 def best_bucket(locs: list[str], *, remote_flag: bool | None = None, country: str | None = None) -> str:
-    buckets = [classify_location(l, remote_flag=remote_flag, country=country) for l in locs if l] or [
+    parts = [x for l in locs if l for x in re.split(r"\s+or\s+|;|\s/\s", l) if x.strip()]
+    buckets = [classify_location(l, remote_flag=remote_flag, country=country) for l in parts]
+    # a bare "Remote" next to a non-US office is that country's remote, not US remote
+    if "non_us" in buckets and "nyc" not in buckets and "us_other" not in buckets:
+        buckets = [("non_us" if b == "us_remote" and not _US_MARK.search(p) else b) for b, p in zip(buckets, parts)]
+    buckets = buckets or [
         classify_location("", remote_flag=remote_flag, country=country)
     ]
     return min(buckets, key=lambda b: BUCKET_RANK[b])

@@ -6,7 +6,8 @@ cache/
 
 # per-run scratch (request logs, judgment batches); summaries land in out/
 data/runs/
-data/judgments/pending/
+data/judgments/
+data/.leads.lock
 
 # python
 __pycache__/

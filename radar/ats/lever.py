@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import re
 
-from ..http import client
+from ..http import client, probe_client
 from ..models import Posting
 from .base import build_posting, pay_from_range
 
@@ -17,7 +17,7 @@ def parse_url(url: str) -> tuple[str, str] | None:
 
 
 def probe(board: str) -> tuple[bool, int]:
-    r = client().get(f"{API}/{board}", params={"mode": "json"})
+    r = probe_client().get(f"{API}/{board}", params={"mode": "json"})
     if r.ok:
         try:
             d = r.json()

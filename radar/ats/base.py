@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import html as htmllib
 import re
 
 from .. import config
@@ -63,6 +64,16 @@ def _date(s: str | None) -> str | None:
     return None
 
 
+def url_key(url: str) -> str:
+    """Stable key for postings without an ATS id. Keeps the query string (Point72's job id lives there)
+    but drops tracking parameters."""
+    from urllib.parse import parse_qsl, urlencode, urlsplit
+
+    u = urlsplit(url)
+    q = [(k, v) for k, v in parse_qsl(u.query) if not k.lower().startswith(("utm_", "gh_src", "lever-source", "src", "ref"))]
+    return "url:" + f"{u.netloc}{u.path}".lower().rstrip("/") + (("?" + urlencode(sorted(q))) if q else "")
+
+
 def build_posting(
     *,
     ats: str,
@@ -117,12 +128,12 @@ def build_posting(
                 except ValueError:
                     continue
     yrs, yrs_ctx = years_required(text)
-    key = f"{ats}:{board}:{job_id}" if job_id else f"url:{url.split('?')[0].rstrip('/').lower()}"
+    key = f"{ats}:{board}:{job_id}" if job_id else url_key(url)
     loc_join = "; ".join(locs)
     return Posting(
         key=key,
         company=company,
-        title=re.sub(r"\s+", " ", title).strip(),
+        title=re.sub(r"\s+", " ", htmllib.unescape(title or "")).strip(),
         url=url,
         apply_url=apply_url,
         ats=ats,

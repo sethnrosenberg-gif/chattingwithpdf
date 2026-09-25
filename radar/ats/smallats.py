@@ -1,7 +1,7 @@
 """Workable, Recruitee, BambooHR and SmartRecruiters adapters (smaller employers)."""
 from __future__ import annotations
 
-from ..http import client
+from ..http import client, probe_client
 from ..models import Posting
 from .base import build_posting, pay_from_range
 
@@ -12,7 +12,7 @@ SR_API = "https://api.smartrecruiters.com/v1/companies"
 
 
 def sr_probe(slug: str) -> tuple[bool, int]:
-    r = client().get(f"{SR_API}/{slug}/postings")
+    r = probe_client().get(f"{SR_API}/{slug}/postings")
     if r.ok:
         d = r.json()
         return d.get("totalFound", 0) > 0, d.get("totalFound", 0)
@@ -41,7 +41,7 @@ WK = "https://apply.workable.com/api"
 
 
 def wk_probe(slug: str) -> tuple[bool, int]:
-    r = client().post_json(f"{WK}/v3/accounts/{slug}/jobs", {"query": "", "location": [], "department": [], "worktype": [], "remote": []})
+    r = probe_client().post_json(f"{WK}/v3/accounts/{slug}/jobs", {"query": "", "location": [], "department": [], "worktype": [], "remote": []})
     if r.ok:
         d = r.json()
         return True, d.get("total", len(d.get("results", [])))
@@ -101,7 +101,7 @@ def wk_detail(slug: str, shortcode: str, company: str, source: str = "verify") -
 
 # ----------------------------------------------------------------------- Recruitee
 def rc_probe(slug: str) -> tuple[bool, int]:
-    r = client().get(f"https://{slug}.recruitee.com/api/offers/")
+    r = probe_client().get(f"https://{slug}.recruitee.com/api/offers/")
     if r.ok:
         try:
             return True, len(r.json().get("offers", []))
@@ -135,7 +135,7 @@ def rc_pull(slug: str, company: str, source: str = "board:recruitee") -> tuple[s
 
 # ------------------------------------------------------------------------ BambooHR
 def bb_probe(slug: str) -> tuple[bool, int]:
-    r = client().get(f"https://{slug}.bamboohr.com/careers/list")
+    r = probe_client().get(f"https://{slug}.bamboohr.com/careers/list")
     if r.ok and "json" in r.headers.get("content-type", ""):
         try:
             return True, len(r.json().get("result", []))

@@ -62,7 +62,8 @@ class Posting(BaseModel):
     def dedupe_key(self) -> str:
         from .textutil import norm_company, norm_title
 
-        return f"{norm_company(self.company)}|{norm_title(self.title)}|{self.loc_bucket}"
+        area = "main" if self.loc_bucket in ("nyc", "us_remote") else self.loc_bucket
+        return f"{norm_company(self.company)}|{norm_title(self.title)}|{area}"
 
 
 class Lead(BaseModel):

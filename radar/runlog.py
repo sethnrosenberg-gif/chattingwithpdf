@@ -12,6 +12,7 @@ import time
 from urllib.parse import urlsplit
 
 from . import config
+from .filelock import locked
 
 
 def record_channel(
@@ -30,7 +31,7 @@ def record_channel(
         "kept": kept, "failures": failures or [], "skipped": skipped or [], "notes": notes,
         "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "pid": os.getpid(),
     }
-    with open(config.run_dir() / "channels.jsonl", "a", encoding="utf-8") as f:
+    with locked(config.run_dir() / ".channels.lock"), open(config.run_dir() / "channels.jsonl", "a", encoding="utf-8") as f:
         f.write(json.dumps(rec) + "\n")
 
 

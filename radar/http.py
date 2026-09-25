@@ -429,7 +429,17 @@ class PoliteClient:
 
 
 _shared: PoliteClient | None = None
+_probe: PoliteClient | None = None
 _shared_lock = threading.Lock()
+
+
+def probe_client() -> PoliteClient:
+    """For existence probes (guessed ATS slugs): one attempt, short timeout, so dead subdomains fail fast."""
+    global _probe
+    with _shared_lock:
+        if _probe is None:
+            _probe = PoliteClient(timeout=10.0, max_attempts=1)
+        return _probe
 
 
 def client() -> PoliteClient:

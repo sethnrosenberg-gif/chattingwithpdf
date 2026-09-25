@@ -62,15 +62,20 @@ def conn() -> sqlite3.Connection:
     return c
 
 
+_write_lock = threading.Lock()
+
+
 @contextmanager
 def tx():
+    """One writer at a time within the process (threads share the file); busy timeout covers other processes."""
     c = conn()
-    try:
-        yield c
-        c.commit()
-    except Exception:
-        c.rollback()
-        raise
+    with _write_lock:
+        try:
+            yield c
+            c.commit()
+        except Exception:
+            c.rollback()
+            raise
 
 
 def upsert_posting(p: Posting) -> None:
